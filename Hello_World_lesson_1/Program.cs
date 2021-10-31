@@ -12,7 +12,7 @@ namespace Hello_World_lesson_1
         {
             Console.WriteLine("What's your name?");
             var name = Console.ReadLine();
-            Console.WriteLine($"Hi, {name} today is [{DateTime.Now}]");
+            Console.WriteLine($"Hi, {name}! today is [{DateTime.Now}]");
         }
     }
 }
